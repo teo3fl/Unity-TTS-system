@@ -80,7 +80,7 @@ namespace T3FL.TTS.Utils
 		/// is currently visible on the object that uses this <see cref="TTSCacheHandler"/>.
 		/// <br/><br/>
 		/// The <i>EndDelay</i> float refers to the amount of time that should be waited
-		///	for at the end of the current clip and before playing the next one.
+		/// for at the end of the current clip and before playing the next one.
 		/// </summary>
 		/// <param name="GetCurrentClipIds"></param>
 		public void Initialize(Func<List<(string ClipId, float EndDelay)>> GetCurrentClipIds)

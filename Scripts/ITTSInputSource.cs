@@ -14,8 +14,8 @@ namespace T3FL.TTS.Utils
 		/// <summary>
 		/// Returns the audio clips of all text elements that are currently visible on
 		/// this object.
-		///	The <i>EndDelay</i> float refers to the amount of time that should be waited
-		///	for at the end of the current clip and before playing the next one.
+		/// The <i>EndDelay</i> float refers to the amount of time that should be waited
+		/// for at the end of the current clip and before playing the next one.
 		/// </summary>
 		IEnumerable<(AudioClip Audio, float EndDelay)> CurrentTTS { get; }
 
